@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #253746; /* Dark blue background */
+    color: #fff; /* White text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Slightly lighter blue container background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,td {
+    border: 1px solid #4a5783; /* Medium blue border color */
+    padding: 8px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+th {
+    background-color: #253746; /* Medium blue table header */
+}
+
+td {
+    text-align: center;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #00cc66; /* Orange button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00994d; /* Darker orange on hover */
+}
+
+.selected {
+    background-color: #ffc107 !important; /* Yellow for selected rows */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+table#show {
+    animation: fadeIn 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+th{
+	color: #fff;
+}
